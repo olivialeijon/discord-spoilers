@@ -6,8 +6,7 @@ import os
 
 def spoiler(separator):
     """Turns any user strings' characters into spoilers"""
-    
-    os.system('cls' if os.name=='nt' else 'clear')   
+
     while(True):
         copy_string = ""
         user_input = input("Input string: ")
